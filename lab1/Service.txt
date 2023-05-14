@@ -1,0 +1,5 @@
+Service to be used:
+REST API for the “most active online anime + manga community and database” 
+
+Link to the API description:
+https://jikan.moe/
