@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Progress Bar Demo</title>
+
+  <script src="navibar.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    navigation-bar {
+      width: 100vw;
+      position: fixed;
+      bottom: 0;
+      /* Todo */
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    navigation-bar a img {
+      opacity: 0.3;
+      /* Todo */
+      transition: opacity 0.2s ease-in-out;
+      transform: scale(0.4);
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <navigation-bar>
+    <a href="#"><img src="imgs/home.png" alt="Logo"></a>
+    <a href="#"><img src="imgs/map.png" alt="Logo"></a>
+    <a href="#"><img src="imgs/coffee.png" alt="Logo"></a>
+    <a href="#"><img src="imgs/settings.png" alt="Logo"></a>
+  </navigation-bar>
+
+
+</body>
+
+</html>
